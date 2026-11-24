@@ -2,7 +2,7 @@
 require 'config.php';
 send_security_headers();
 
-$title = 'Student Accommodation Enquiries - Banya Hostels';
+$title = 'Student Accommodation Enquiries - Banya Hostel';
 $desc = 'Have questions about accommodation, room sharing, hostel facilities or booking? Send an enquiry to Banya Hostels.';
 $categories = [
     'Room Availability',

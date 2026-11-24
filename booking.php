@@ -2,7 +2,7 @@
 require 'config.php';
 send_security_headers();
 
-$title = 'Book Student Accommodation - Banya Hostels';
+$title = 'Book Student Accommodation at Banya Hostels - Fort Portal';
 $desc = 'Request a student accommodation room at Banya Hostels in Fort Portal. Explore available accommodation and submit your booking request.';
 $message = '';
 $bookingSubmitted = false;

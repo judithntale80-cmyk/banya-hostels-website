@@ -2,7 +2,7 @@
 // ===== PAGE SETUP =====
 require 'config.php';
 send_security_headers();
-$title = 'About Banya Hostels - Fort Portal';
+$title = 'About Banya Hostel - Student Accommodation in Fort Portal';
 $desc = 'Learn about Banya Hostels, our accommodation, facilities, values and commitment to providing comfortable student housing in Fort Portal.';
 include 'includes/header.php';
 ?>

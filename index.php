@@ -2,7 +2,7 @@
 // ===== PAGE SETUP AND HOSTEL DATA =====
 require 'config.php';
 send_security_headers();
-$title = 'Affordable Student Accommodation in Fort Portal';
+$title = 'Affordable Student Accommodation in Fort Portal | Banya Hostels';
 $desc = 'Discover Banya Hostels in Fort Portal, offering student accommodation near Mountains of the Moon University. Explore our rooms, facilities and booking options.';
 
 $hostels = $pdo->query("

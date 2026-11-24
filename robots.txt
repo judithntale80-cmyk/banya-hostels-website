@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /uploads/
+Disallow: /config/
+
+Allow: /
+Sitemap: https://banya.noscamcoin.org/sitemap.xml

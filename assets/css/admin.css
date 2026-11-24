@@ -1,0 +1,84 @@
+/* ===== ADMIN PAGE LAYOUT AND NAVIGATION ===== */
+.admin-body {
+  min-height: 100vh;
+  background: var(--ivory);
+}
+
+.admin-navbar {
+  border-bottom: 3px solid var(--gold);
+}
+
+.admin-navbar .navbar-toggler {
+  border-color: var(--sage);
+}
+
+.admin-view-site {
+  white-space: nowrap;
+}
+
+/* ===== ADMIN ACTION BUTTONS ===== */
+.admin-body .btn-dark {
+  background-color: var(--forest);
+  border-color: var(--forest);
+}
+
+.admin-body .btn-dark:hover,
+.admin-body .btn-dark:focus {
+  background-color: #102c24;
+  border-color: #102c24;
+}
+
+.admin-body .btn-outline-dark {
+  color: var(--forest);
+  border-color: var(--forest);
+}
+
+.admin-body .btn-outline-dark:hover,
+.admin-body .btn-outline-dark:focus {
+  color: var(--ivory);
+  background-color: var(--forest);
+  border-color: var(--forest);
+}
+
+.admin-body .btn-success {
+  color: var(--ink);
+  background-color: var(--sage);
+  border-color: var(--sage);
+}
+
+.admin-body .btn-success:hover,
+.admin-body .btn-success:focus {
+  color: var(--ink);
+  background-color: #92aa8b;
+  border-color: #92aa8b;
+}
+
+/* ===== ADMIN TABLES AND LOGIN FORM ===== */
+.admin-body .table {
+  --bs-table-bg: var(--ivory);
+  --bs-table-striped-bg: #f0ede4;
+  --bs-table-border-color: var(--beige);
+}
+
+.admin-body .table th {
+  color: var(--forest);
+}
+
+.admin-login {
+  max-width: 400px;
+  margin-top: 10vh;
+}
+
+.gallery-admin-thumbnail {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gallery-admin-preview {
+  width: min(100%, 360px);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+}

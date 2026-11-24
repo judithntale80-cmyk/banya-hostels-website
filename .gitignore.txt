@@ -1,0 +1,19 @@
+# Environment files
+.env
+.env.*
+
+# Local configuration
+config.local.php
+
+# Database backups
+*.sql.zip
+backup/
+backups/
+
+# Temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db

@@ -227,7 +227,7 @@ include '_head.php';
                 class="form-control"
                 id="post-image"
                 name="image"
-                accept=".jpg,.jpeg,.png,.webp"
+                accept="image/jpeg,image/png,image/webp"
             >
             <div class="form-text">JPG, PNG or WEBP, up to 2 MB.</div>
         </div>

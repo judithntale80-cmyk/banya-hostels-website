@@ -1,0 +1,28 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+config.local.php
+secrets.php
+
+# Local database exports and backups (keep the schema.sql source file)
+*.sql.gz
+*.sql.zip
+*.dump
+backup/
+backups/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies/build output (if introduced later)
+vendor/
+node_modules/

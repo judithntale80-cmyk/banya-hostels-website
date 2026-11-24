@@ -101,8 +101,7 @@ include 'includes/header.php';
                     <img
                         class="about-photo"
                         src="<?= BASE_URL ?>/assets/banya_images/Banya4 Showcase.png"
-                        alt="The Banya Hostels building"
-                        loading="lazy"
+                        alt="Comfortable student accommodation at Banya Hostels"
                     >
                 </div>
             </div>

@@ -23,6 +23,7 @@ A PHP and MySQL website for Banya Hostels. The project provides public accommoda
 - Booking management.
 - Enquiry management.
 - Gallery management.
+- Posts management
 - Website settings.
 
 ### Booking workflow

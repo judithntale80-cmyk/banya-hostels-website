@@ -46,7 +46,7 @@ function render_page_hero($title, $eyebrow = 'Banya Hostels · Fort Portal')
         >
         <style>
             :root {
-                --brand: #183D32;
+                --brand: <?= e(brand_color()) ?>;
             }
         </style>
     </head>

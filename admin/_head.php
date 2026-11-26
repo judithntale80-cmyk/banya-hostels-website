@@ -42,6 +42,11 @@ $menuItems = [
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?= BASE_URL ?>/assets/css/style.css" rel="stylesheet">
         <link href="<?= BASE_URL ?>/assets/css/admin.css" rel="stylesheet">
+        <style>
+            :root {
+                --brand: <?= e(brand_color()) ?>;
+            }
+        </style>
     </head>
     <body class="admin-body">
         <!-- ===== ADMIN NAVIGATION AND PAGE CONTENT START ===== -->

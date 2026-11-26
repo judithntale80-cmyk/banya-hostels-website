@@ -60,6 +60,13 @@ function setting($key)
     return $cache[$key] ?? '';
 }
 
+function brand_color()
+{
+    $color = setting('brand_color');
+
+    return preg_match('/^#[0-9a-fA-F]{6}$/', $color) ? $color : '#1b4965';
+}
+
 function send_security_headers()
 {
     if (headers_sent()) {

@@ -54,6 +54,8 @@ include '_head.php';
             <label class="form-label"><?= $label ?></label>
             <?php if (in_array($key, $longSettings, true)): ?>
                 <textarea class="form-control" name="<?= $key ?>" rows="6"><?= e(setting($key)) ?></textarea>
+            <?php elseif ($key === 'brand_color'): ?>
+                <input class="form-control form-control-color" type="color" name="<?= $key ?>" value="<?= e(brand_color()) ?>">
             <?php else: ?>
                 <input class="form-control" name="<?= $key ?>" value="<?= e(setting($key)) ?>">
             <?php endif; ?>

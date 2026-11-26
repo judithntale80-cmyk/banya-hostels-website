@@ -1,8 +1,8 @@
 /* ===== THEME COLORS AND GLOBAL TYPOGRAPHY ===== */
 :root {
     --brand:#183D32;
-    --forest:#183D32;
-    --olive:#596B36;
+    --forest:var(--brand);
+    --olive:var(--brand);
     --sage:#A3B89C;
     --beige:#D8C3A5;
     --ivory:#FAF8F2;
@@ -70,7 +70,7 @@ h1,h2,h3,h4,.navbar-brand {
 }
 
 .hero {
-    background:linear-gradient(rgba(24,61,50,.82),rgba(24,61,50,.82)),var(--forest);
+    background:var(--brand);
     color:var(--ivory);
     padding:6rem 0;
 }
@@ -367,7 +367,7 @@ a:focus-visible,button:focus-visible,.form-control:focus {
     align-items:center;
     min-height:500px;
     padding:4.4rem 0 4.9rem;
-    background:linear-gradient(115deg,var(--forest) 0%,#34523c 54%,var(--olive) 100%);
+    background:linear-gradient(115deg,var(--forest) 0%,var(--brand) 54%,var(--olive) 100%);
     color:var(--ivory);
 }
 
@@ -929,7 +929,7 @@ a:focus-visible,button:focus-visible,.form-control:focus {
     align-items:center;
     min-height:500px;
     padding:4.4rem 0 4.9rem;
-    background:linear-gradient(115deg,var(--forest) 0%,#34523c 54%,var(--olive) 100%);
+    background:linear-gradient(115deg,var(--forest) 0%,var(--brand) 54%,var(--olive) 100%);
     color:var(--ivory);
 }
 
